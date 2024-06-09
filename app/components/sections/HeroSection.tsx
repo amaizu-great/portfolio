@@ -11,7 +11,7 @@ const HeroSection = () => {
               Hi, I Am Great 👋
             </h1>
             <p>
-              I'm a full stack developer (React.js & Node.js) with a focus on
+              I am a full stack developer (React.js & Node.js) with a focus on
               creating (and occasionally designing) exceptional digital
               experiences that are fast, accessible, visually appealing, and
               responsive. Even though I have been creating web applications for
