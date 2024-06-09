@@ -8,7 +8,7 @@ const HeroSection = () => {
         <section className="flex flex-col gap-12 text-gray-600 dark:text-gray-100 text-[14px] max-lg:gap-8">
           <div className="flex flex-col gap-4 max-w-[600px] max-lg:max-w-full">
             <h1 className="text-[40px] font-bold leading-none text-[#030712] dark:text-white">
-              Hi, {"I’m"} Great 👋
+              Hi, I Am Great 👋
             </h1>
             <p>
               I'm a full stack developer (React.js & Node.js) with a focus on
