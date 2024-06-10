@@ -68,7 +68,7 @@ const AboutMe = () => {
 
               <p>
                 One last thing, I am available for freelance work, so feel free
-                to reach out and say hello! I promise I don't bite 😉
+                to reach out and say hello! I promise I dont bite 😉
               </p>
             </div>
           </section>
