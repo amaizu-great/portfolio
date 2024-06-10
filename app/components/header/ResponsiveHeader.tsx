@@ -47,7 +47,7 @@ const ResponsiveHeader = () => {
 
   return (
     <main className="hidden justify-between text-gray-600 px-[5%] py-4 w-full dark:text-gray-100 dark:bg-[#030712] max-md:flex ">
-      <h1 className="font-semibold text-[20px] max-md:text-[18px] max-sm:text-[16px]">
+      <h1 className="font-semibold text-[20px] max-md:text-[18px] max-sm:text-[16px] text-[#030712] dark:text-white">
         {"<Great />"}
       </h1>
       {headerActive ? <HideNavBar /> : <ShowNavBar />}
