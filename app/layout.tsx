@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
-import ResponsiveHeader from "./components/header/ResponsiveHeader"
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "500"] });
 
@@ -20,7 +19,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.className} relative overflow-x-hidden`}>
-        <ResponsiveHeader />
         <Header />
         {children}
         <Footer />

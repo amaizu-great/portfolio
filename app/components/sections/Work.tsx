@@ -68,7 +68,7 @@ const Work = () => {
         </div>
 
         <div className="flex w-[90%] rounded max-lg:flex-col-reverse max-lg:w-full max-sm:text-[12px]">
-          <section className="flex flex-col w-1/2 px-12 py-6 justify-center rounded-l gap-6 bg-white dark:bg-gray-800 max-lg:w-full max-lg:p-6 max-lg:rounded-l-none max-lg:rounded-t max-sm:gap-3 max-sm:p-4">
+          <section className="flex flex-col w-1/2 px-12 py-6 justify-center rounded-l gap-6 bg-white dark:bg-gray-800 max-lg:w-full max-lg:p-6 max-lg:rounded-t-none max-lg:rounded-b max-sm:gap-3 max-sm:p-4">
             <h1 className="text-[18px] text-[#030712] dark:text-white ">
               My Porfolio
             </h1>
@@ -90,7 +90,7 @@ const Work = () => {
             </Link>
           </section>
 
-          <section className="flex w-1/2 p-6 items-center rounded-r bg-gray-100 dark:bg-gray-600 max-lg:w-full max-lg:rounded-r-none max-lg:rounded-b max-sm:p-2 dark:hidden">
+          <section className="flex w-1/2 p-6 items-center rounded-r bg-gray-100 dark:bg-gray-600 max-lg:w-full max-lg:rounded-r-none max-lg:rounded-t max-sm:p-2 dark:hidden">
             <Image
               src={Port1}
               alt=""
@@ -98,7 +98,7 @@ const Work = () => {
             ></Image>
           </section>
 
-          <section className="hidden w-1/2 p-6 items-center rounded-r bg-gray-100 dark:bg-gray-600 max-lg:w-full max-lg:rounded-r-none max-lg:rounded-b max-sm:p-2 dark:flex">
+          <section className="hidden w-1/2 p-6 items-center rounded-r bg-gray-100 dark:bg-gray-600 max-lg:w-full max-lg:rounded-r-none max-lg:rounded-t max-sm:p-2 dark:flex">
             <Image
               src={Port2}
               alt=""
