@@ -16,7 +16,7 @@ const GetInTouch = () => {
             Get In Touch
           </button>
           <p>
-            What is next? Feel free to reach out to me if you're looking for a
+            What is next? Feel free to reach out to me if you are looking for a
             developer, have a query, or simply want to connect.
           </p>
         </div>
