@@ -13,10 +13,10 @@ const Header = () => {
 
         <nav className="flex text-[13px] gap-5 items-center max-md:text-[12px] max-md:gap-0 max-md:flex-col max-md:items-start">
           <div className="flex w-full h-fit gap-5 max-md:gap-4 max-md:flex-col max-md:border-b max-md:p-4 max-md:dark:border-gray-700">
-            <Link href="/about">About</Link>
-            <Link href="/work">Work</Link>
-            <Link href="/Testimonials">Testimonials</Link>
-            <Link href="/contact">Contact</Link>
+            <Link href="#about">About</Link>
+            <Link href="#work">Work</Link>
+            <Link href="#Testimonials">Testimonials</Link>
+            <Link href="#contact">Contact</Link>
           </div>
 
           <hr className="w-[1px] h-full bg-gray-100 border-none max-md:hidden" />

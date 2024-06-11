@@ -42,7 +42,7 @@ const Skills = () => {
     <section className="w-full px-[5%] flex py-16 bg-white  items-center justify-center dark:bg-[#030712]">
       <div className="w-full flex flex-col gap-4 text-gray-600 dark:text-gray-100 text-[14px]">
         <div className="flex flex-col gap-4 w-full h-fit items-center justify-center">
-          <button className="flex border-none outline-none px-8 py-2 rounded-r-[20px] rounded-l-[20px] bg-gray-300 text-[#030712] dark:bg-gray-600 dark:text-gray-100 ">
+          <button className="flex border-none outline-none text-[12px] px-7 py-1 rounded-r-[20px] rounded-l-[20px] bg-gray-300 text-[#030712] dark:bg-gray-600 dark:text-gray-100 ">
             Skills
           </button>
         </div>
@@ -51,7 +51,7 @@ const Skills = () => {
           <div className="flex flex-col gap-10 items-center ">
             <p>Tools and Technologies That In Am Good At</p>
 
-            <div className="flex w-full justify-around gap-16 flex-wrap">
+            <div className="flex w-[90%] justify-around gap-16 flex-wrap">
               <EachSkill image={Js} name="JavaScript" alt="Js Icon" />
               <EachSkill image={Ts} name="TypeScript" alt="Ts Icon" />
               <EachSkill image={React} name="React" alt="React Icon" />
@@ -67,7 +67,7 @@ const Skills = () => {
           <div className="flex flex-col gap-10 items-center">
             <p>Others that my hands are a little bit light on 😑</p>
 
-            <div className="flex w-full justify-around gap-16 flex-wrap">
+            <div className="flex w-[90%] justify-around gap-16 flex-wrap">
               <EachSkill image={Node} name="Node.js" alt="Node js Icon" />
               <EachSkill image={Nest} name="Nest.js" alt="Nest js Icon" />
               <ExpressJs />

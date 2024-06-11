@@ -1,5 +1,8 @@
 import Link from "next/link";
-import { Location, Figma } from "iconsax-react";
+import { Location } from "iconsax-react";
+import { LuGithub } from "react-icons/lu";
+import { CiLinkedin } from "react-icons/ci";
+import { FaXTwitter } from "react-icons/fa6";
 
 const HeroSection = () => {
   return (
@@ -11,11 +14,10 @@ const HeroSection = () => {
               Hi, I Am Great 👋
             </h1>
             <p>
-              I am a full stack developer (React.js & Node.js) with a focus on
-              creating (and occasionally designing) exceptional digital
-              experiences that are fast, accessible, visually appealing, and
+              I am a front-end developer (React.js) Aspiring full stack dev, i focus on
+              creating exceptional digital websites with lovely animation , accessible, visually appealing, and
               responsive. Even though I have been creating web applications for
-              over 7 years, I still love it as if it was something new.
+               2 years + now, I still love it as if it was something new.
             </p>
           </div>
 
@@ -33,15 +35,15 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <div className="flex gap-1">
-            <Link href="/" className="flex p-[6px]">
-              <Figma />
+          <div className="flex gap-1 items-center">
+            <Link href="https://github.com/amaizu-great" className="flex p-[6px] ">
+              <LuGithub className="size-[25px]"/>
             </Link>
-            <Link href="/" className="flex p-[6px]">
-              <Figma />
+            <Link href="https://x.com/amaizu_great" className="flex p-[6px]">
+              <FaXTwitter className="size-[25px]"/>
             </Link>
-            <Link href="/" className="flex p-[6px]">
-              <Figma />
+            <Link href="https://www.linkedin.com/in/great-amaizu-b6965b238/" className="flex p-[6px]">
+              <CiLinkedin className="size-[30px]"/>
             </Link>
           </div>
         </section>

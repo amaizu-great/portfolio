@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Link1 } from "iconsax-react";
-import Me from "../../../public/Me.jpg";
+import Ellas from "../../../public/Ellas.png";
+import { TbExternalLink } from "react-icons/tb";
 import Port1 from "../../../public/portfolio dark.png";
 import Port2 from "../../../public/portfolio light .png";
 
@@ -15,10 +15,10 @@ const ProjectSkils = (props: any) => {
 
 const Work = () => {
   return (
-    <section className="w-full px-[5%] flex py-16 bg-white items-center justify-center dark:bg-[#030712] text-gray-600 dark:text-gray-100 text-[14px]">
-      <div className="flex w-full items-center flex-col gap-12">
+    <section id="work" className="w-full px-[5%] flex py-16 bg-white items-center justify-center dark:bg-[#030712] text-gray-600 dark:text-gray-100 text-[14px]">
+      <div className="flex w-full items-center flex-col gap-12 max-md:gap-8">
         <div className="flex flex-col gap-4 w-full h-fit items-center justify-center">
-          <button className="flex border-none outline-none px-8 py-2 rounded-r-[20px] rounded-l-[20px] bg-gray-300 text-[#030712] dark:bg-gray-600 dark:text-gray-100 ">
+          <button className="flex border-none outline-none text-[12px] px-7 py-1 rounded-r-[20px] rounded-l-[20px] bg-gray-300 text-[#030712] dark:bg-gray-600 dark:text-gray-100 ">
             Work
           </button>
           <p>Some of the noteworthy projects I have built:</p>
@@ -27,13 +27,13 @@ const Work = () => {
         <div className="flex w-[90%] rounded max-lg:flex-col max-lg:w-full max-sm:text-[12px]">
           <section className="flex w-1/2 p-6 items-center rounded-l bg-gray-100 dark:bg-gray-600 max-lg:w-full max-lg:rounded-l-none max-lg:rounded-t max-sm:p-2">
             <Image
-              src={Port1}
+              src={Ellas}
               alt=""
               className="w-full h-fit rounded min-h-fit max-h-fit"
             ></Image>
           </section>
 
-          <section className="flex flex-col w-1/2 p-12 justify-center rounded-r gap-6 bg-white dark:bg-gray-800 max-lg:w-full max-lg:p-6 max-lg:rounded-r-none max-lg:rounded-b max-sm:gap-3 max-sm:p-4">
+          <section className="flex flex-col w-1/2 px-12 py-6 justify-center rounded-r gap-6 bg-white dark:bg-gray-800 max-lg:w-full max-lg:p-6 max-lg:rounded-r-none max-lg:rounded-b max-sm:gap-3 max-sm:p-4">
             <h1 className="text-[18px] text-[#030712] dark:text-white ">
               DripWithElla
             </h1>
@@ -42,9 +42,11 @@ const Work = () => {
               DripWithElla Is An E-commerce Website That Sells Mostly females
               Accersories, My First E-commerce Website Actually, Also
               Acknowledging{" "}
-              <Link href="" className="underline text-black dark:text-white">
-                {" "}
-                David{" "}
+              <Link
+                href="https://github.com/feyisayo1"
+                className="underline px-1 text-[15px] text-black dark:text-white"
+              >
+                David
               </Link>{" "}
               Whos is My Partner In This Projects, This Website is Special To Me
               Cause Most Of the Tools I Used In Building It, I Learnt Them While
@@ -59,14 +61,14 @@ const Work = () => {
               <ProjectSkils name="Tailwind Css" />
             </div>
 
-            <Link href="/">
-              <Link1 />
+            <Link href="http://drip-with-ella.vercel.app/" className="mt-5">
+            <TbExternalLink className="size-[25px]"/>
             </Link>
           </section>
         </div>
 
         <div className="flex w-[90%] rounded max-lg:flex-col-reverse max-lg:w-full max-sm:text-[12px]">
-          <section className="flex flex-col w-1/2 p-12 justify-center rounded-l gap-6 bg-white dark:bg-gray-800 max-lg:w-full max-lg:p-6 max-lg:rounded-l-none max-lg:rounded-t max-sm:gap-3 max-sm:p-4">
+          <section className="flex flex-col w-1/2 px-12 py-6 justify-center rounded-l gap-6 bg-white dark:bg-gray-800 max-lg:w-full max-lg:p-6 max-lg:rounded-l-none max-lg:rounded-t max-sm:gap-3 max-sm:p-4">
             <h1 className="text-[18px] text-[#030712] dark:text-white ">
               My Porfolio
             </h1>
@@ -83,8 +85,8 @@ const Work = () => {
               <ProjectSkils name="Tailwind Css" />
             </div>
 
-            <Link href="/">
-              <Link1 />
+            <Link href="/" className="mt-5">
+            <TbExternalLink className="size-[25px]"/>
             </Link>
           </section>
 

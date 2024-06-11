@@ -1,9 +1,15 @@
+import Link from "next/link";
+
+
 const AboutMe = () => {
   return (
-    <section className="flex w-full px-[5%] bg-gray-100 dark:bg-[#111827] py-24 items-center justify-center max-lg:py-16">
+    <section
+      id="about"
+      className="flex w-full px-[5%] bg-gray-100 dark:bg-[#111827] py-24 items-center justify-center max-lg:py-16"
+    >
       <div className="w-full flex flex-col gap-24">
         <div className="flex w-full h-fit items-center justify-center">
-          <button className="flex border-none outline-none px-8 py-2 rounded-r-[20px] rounded-l-[20px] bg-gray-300 text-[#030712] dark:bg-gray-600 dark:text-gray-100 ">
+          <button className="flex border-none outline-none text-[12px] px-7 py-1 rounded-r-[20px] rounded-l-[20px] bg-gray-300 text-[#030712] dark:bg-gray-600 dark:text-gray-100 ">
             About Me
           </button>
         </div>
@@ -22,49 +28,33 @@ const AboutMe = () => {
               </h1>
 
               <p>
-                I am a passionate, self-proclaimed designer who specializes in
-                full stack development (React.js & Node.js). I am very
-                enthusiastic about bringing the technical and visual aspects of
+                I am a web developer who is Exceptional in
+                front end development [...React.js]. I am very
+                eagar about creating interactive animation and bringing the  visual aspects of
                 digital products to life. User experience, pixel perfect design,
                 and writing clear, readable, highly performant code matters to
                 me.
               </p>
 
               <p>
-                I began my journey as a web developer in 2015, and since then,
-                I have continued to grow and evolve as a developer, taking on new
-                challenges and learning the latest technologies along the way.
-                Now, in my early thirties, 7 years after starting my web
-                development journey, I am building cutting-edge web applications
-                using modern technologies such as Next.js, TypeScript, Nestjs,
-                Tailwindcss, Supabase and much more.
+                I began my journey as a web developer in 2022, joined an Online teaching school{" "}
+              <Link
+                href="https://altschoolafrica.com"
+                className="underline px-1 text-[15px] text-black dark:text-white"
+              >
+                AltSchoolAfrica
+              </Link>{" "} in 2023  gradurated 2024 and since then, I
+                have continued to grow and evolve as a developer,
+                 I love building cutting-edge web applications
+                using modern technologies such as Next.js, TypeScript,
+                Tailwindcss, firebase and much more.
               </p>
 
               <p>
-                I am very much a progressive thinker and enjoy working on
-                products end to end, from ideation all the way to development.
+                i am someone who thrives on competition and constantly seeks to improve myself, always striving to 
+                become a better version of who i am. for me its is not just about winning but about pushing my own limits, aiming to outdo my previous accomplishments
+                
               </p>
-
-              <p>
-                When I am not in full-on developer mode, you can find me hovering
-                around on twitter or on indie hacker, witnessing the journey of
-                early startups or enjoying some free time. You can follow me on
-                Twitter where I share tech-related bites and build in public, or
-                you can follow me on GitHub.
-              </p>
-
-              <p>Finally Some Quick Bit About Me</p>
-
-              <div className="w-full flex gap-3 flex-wrap">
-                <div className="flex flex-col gap-3">
-                  <li>B.E. in Computer Engineering</li>
-                  <li>Avid learner</li>
-                </div>
-                <div className="flex flex-col gap-3">
-                  <li>Full time freelancer</li>
-                  <li>Aspiring indie hacker</li>
-                </div>
-              </div>
 
               <p>
                 One last thing, I am available for freelance work, so feel free
